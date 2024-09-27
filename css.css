@@ -1,0 +1,79 @@
+/* General Styling */
+body {
+    background-color: #87d27a;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container Styling */
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+  }
+  
+  /* Heading Styling */
+  h1.text-center.text-success {
+    color: #28a745;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  h1.text-center.text-danger {
+    color: #dc3545;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Form Input and Label Styling */
+  .form-group label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  /* Button Styling */
+  .btn {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 12px;
+    border-radius: 5px;
+  }
+  
+  /* Prediction Text Styling */
+  h1.text-center {
+    background-color: #343a40;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .btn {
+      font-size: 1rem;
+    }
+  
+    h1.text-center.text-success, h1.text-center.text-danger {
+      font-size: 1.2rem;
+    }
+  }
+  
